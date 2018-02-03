@@ -2,28 +2,31 @@
 <html>
 
 <head>
-    <!-- Custom CSS imports -->
-    <link type="text/css" rel="stylesheet" href="css/main.css" />
     <!--Import Google Icon Font-->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <!--Import materialize.css-->
     <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
     <!-- Import Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Custom CSS imports -->
+    <link type="text/css" rel="stylesheet" href="css/main.css" />
     <!--Let browser know website is optimized for mobile-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 </head>
 
 <body>
     <header class="nav-wrapper">
-        <nav class="indigo lighten-1">
-            <a href="#" class="brand-logo">&nbsp;kev_turk.sh</a>
+        <nav class="grey darken-2 white-text">
+            <a href="#" class="brand-logo">&nbsp;sudo kev_turk.sh</a>
             <ul id="nav-mobile" class="right hide-on-med-and-down">
                 <li>
                     <a href="#about">About</a>
                 </li>
                 <li>
                     <a href="#media">Media</a>
+                </li>
+                <li>
+                    <a href="#experience">Experience</a>
                 </li>
                 <li>
                     <a href="#education">Education</a>
@@ -34,42 +37,66 @@
                 <li>
                     <a href="#projects">Projects</a>
                 </li>
-                <li>
-                    <a href="#contact">Contact</a>
-                </li>
             </ul>
         </nav>
     </header>
 
     <main class="container">
-        <div class="row section card-panel">
+        <div id="about" class="row section card-panel">
             <h3>About Me</h3>
-            <div class="row valign-wrapper">
-                <img class="circle responsive-img" src="images/profile.jpg">
+            <div class="divider"></div>
+            <div class="row valign-wrapper about-body">
+                <div class="col s3">
+                    <img class="circle responsive-img z-depth-3" src="images/profile.jpg">
+                </div>
+                <div class="col s9">
+                    <p class="flow-text">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                        nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+                        mollit anim id est laborum.
+                    </p>
+                </div>
+
+            </div>
+        </div>
+        <div class="divider"></div>
+
+        <div id="media" class="row section card-panel cyan darken-2 white-text">
+            <h3>Media</h3>
+            <div class="divider"></div>
+            <div>
+                <i class="fa fa-github fa-5x"></i>
+            </div>
+
+        </div>
+        <div class="divider"></div>
+
+        <div id="experience" class="row section card-panel">
+            <h3>Experience</h3>
+        </div>
+
+        <div id="experience" class="row section card-panel cyan darken-2 white-text">
+            <div class="experience-header">
+                <h4>Center for Applied Systems and Software</h4>
+                <h5>March 2016 - Present</h5>
+                <h5>Junior Software Developer</h5>
+            </div>
+
+            <div class="divider"></div>
+            <div class="experience-body">
                 <p class="flow-text">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
-                    laborum.
+                    Worked in large development teams as a junior developer on projects for the Oregon Department of Transportation and Smarter
+                    Balanced.
                 </p>
             </div>
         </div>
         <div class="divider"></div>
 
-        <div class="row section card-panel">
-            <h3>Media</h3>
-            <p class="flow-text">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
-                sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-            </p>
-        </div>
-        <div class="divider"></div>
-
-        <div class="row section card-panel">
+        <div id="education" class="row section card-panel">
             <h3>Education</h3>
+            <div class="divider"></div>
             <p class="flow-text">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                 Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
@@ -79,58 +106,83 @@
         </div>
         <div class="divider"></div>
 
-        <div class="row section card-panel">
+        <div id="skills" class="row section card-panel cyan darken-2 white-text">
             <h3>Skills</h3>
-            <p class="flow-text">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
-                sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-            </p>
+            <div class="divider"></div>
+            <div class="skills-body">
+                <h5>Programming Languages</h5>
+                <div class="chip">TypeScript</div>
+                <div class="chip">Python</div>
+                <div class="chip">&nbsp;C&nbsp;</div>
+                <div class="chip">&nbsp;C#&nbsp;</div>
+                <div class="chip">LaTex</div>
+                <div class="chip">HTML</div>
+                <div class="chip">CSS</div>
+                <h5>Frameworks</h5>
+                <div class="chip">React.js</div>
+                <div class="chip">NodeJs</div>
+                <h5>Operating Systems</h5>
+                <div class="chip">Ubuntu</div>
+                <div class="chip">Arch Linux</div>
+                <div class="chip">Windows 7</div>
+                <div class="chip">Windows 10</div>
+            </div>
         </div>
         <div class="divider"></div>
 
-        <div class="row section card-panel">
+        <div id="projects" class="row section card-panel">
             <h3>Projects</h3>
         </div>
         <!-- Project container -->
         <div class="row">
             <div class="col s4">
-                <div class="card small blue-grey darken-1">
+                <div class="card small cyan darken-2">
                     <div class="card-content white-text">
                         <span class="card-title">Project 1</span>
                         <p>I am a very simple card. I am good at containing small bits of information. I am convenient because
                             I require little markup to use effectively.</p>
                     </div>
                     <div class="card-action">
-                        <a href="#">This is a link</a>
-                        <a href="#">This is a link</a>
+                        <a href="#">
+                            <i class="fa fa-external-link"></i>&nbsp; Website
+                        </a>
+                        <a href="#">
+                            <i class="fa fa-github"></i>&nbsp; Github
+                        </a>
                     </div>
                 </div>
             </div>
             <div class="col s4">
-                <div class="card small blue-grey darken-1">
+                <div class="card small cyan darken-2">
                     <div class="card-content white-text">
                         <span class="card-title">Project 2</span>
                         <p>I am a very simple card. I am good at containing small bits of information. I am convenient because
                             I require little markup to use effectively.</p>
                     </div>
                     <div class="card-action">
-                        <a href="#">This is a link</a>
-                        <a href="#">This is a link</a>
+                        <a href="#">
+                            <i class="fa fa-external-link"></i>&nbsp; Website
+                        </a>
+                        <a href="#">
+                            <i class="fa fa-github"></i>&nbsp; Github
+                        </a>
                     </div>
                 </div>
             </div>
             <div class="col s4">
-                <div class="card small blue-grey darken-1">
+                <div class="card small cyan darken-2">
                     <div class="card-content white-text">
                         <span class="card-title">Project 3</span>
                         <p>I am a very simple card. I am good at containing small bits of information. I am convenient because
                             I require little markup to use effectively.</p>
                     </div>
                     <div class="card-action">
-                        <a href="#">This is a link</a>
-                        <a href="#">This is a link</a>
+                        <a href="#">
+                            <i class="fa fa-external-link"></i>&nbsp; Website
+                        </a>
+                        <a href="#">
+                            <i class="fa fa-github"></i>&nbsp; Github
+                        </a>
                     </div>
                 </div>
             </div>

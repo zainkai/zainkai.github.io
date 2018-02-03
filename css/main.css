@@ -8,3 +8,17 @@ body {
 main {
   flex: 1 0 auto;
 }
+
+div.skills-body {
+  padding-top: 1vh;
+}
+
+div.about-body {
+  padding-top: 1vh;
+}
+
+div.experience-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
