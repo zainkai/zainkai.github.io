@@ -16,14 +16,11 @@
 
 <body>
     <header class="nav-wrapper">
-        <nav class="grey darken-2 white-text">
-            <a href="#" class="brand-logo">&nbsp;sudo kev_turk.sh</a>
+        <nav class="cyan darken-3 white-text">
+            <a href="#" class="brand-logo">&nbsp;sudo ./kev_turk</a>
             <ul id="nav-mobile" class="right hide-on-med-and-down">
                 <li>
                     <a href="#about">About</a>
-                </li>
-                <li>
-                    <a href="#media">Media</a>
                 </li>
                 <li>
                     <a href="#experience">Experience</a>
@@ -60,49 +57,59 @@
                 </div>
 
             </div>
-        </div>
-        <div class="divider"></div>
-
-        <div id="media" class="row section card-panel cyan darken-2 white-text">
-            <h3>Media</h3>
             <div class="divider"></div>
-            <div>
-                <i class="fa fa-github fa-5x"></i>
+            <div class="about-footer">
+                <a href="mailto:turkingtonkevin@gmail.com">
+                    <i class="fa fa-envelope fa-2x"></i>&nbsp;TurkingtonKevin@gmail.com
+                </a>
+                <a href="downloadables/KevinTurkington_Resume.pdf">
+                    <i class="fa fa-file fa-2x"></i>&nbsp; Resume
+                </a>
+                <a href="https://www.linkedin.com/in/kevin-turkington/">
+                    <i class="fa fa-linkedin-square fa-2x"></i>&nbsp;Linkedin
+                </a>
+                <a href="https://github.com/zainkai">
+                    <i class="fa fa-github fa-2x"></i>&nbsp;Github
+                </a>
             </div>
-
         </div>
         <div class="divider"></div>
-
-        <div id="experience" class="row section card-panel">
-            <h3>Experience</h3>
-        </div>
 
         <div id="experience" class="row section card-panel cyan darken-2 white-text">
-            <div class="experience-header">
-                <h4>Center for Applied Systems and Software</h4>
-                <h5>March 2016 - Present</h5>
-                <h5>Junior Software Developer</h5>
-            </div>
-
+            <h3>Experience</h3>
             <div class="divider"></div>
-            <div class="experience-body">
+            <div class="experience-item">
+                <span>
+                    <h4>Center for Applied Systems and Software</h4>
+                    <h5>March 2016 - Present</h5>
+                </span>
+                <h5>Junior Software Developer</h5>
                 <p class="flow-text">
                     Worked in large development teams as a junior developer on projects for the Oregon Department of Transportation and Smarter
                     Balanced.
                 </p>
             </div>
         </div>
+
         <div class="divider"></div>
 
         <div id="education" class="row section card-panel">
             <h3>Education</h3>
             <div class="divider"></div>
-            <p class="flow-text">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
-                sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-            </p>
+            <div class="education-item">
+                <span>
+                    <h4>Oregon State University</h4>
+                    <h5>Sept. 2014 - June 2018</h5>
+                </span>
+                <h5>Bachelors, Computer Science</h5>
+            </div>
+            <div class="education-item">
+                <span>
+                    <h4>Mt. Hood Community College</h4>
+                    <h5>Fall 2010 - Summer 2015</h5>
+                </span>
+                <h5>Dual Enrollment</h5>
+            </div>
         </div>
         <div class="divider"></div>
 
@@ -120,12 +127,17 @@
                 <div class="chip">CSS</div>
                 <h5>Frameworks</h5>
                 <div class="chip">React.js</div>
-                <div class="chip">NodeJs</div>
+                <div class="chip">Node.js</div>
+                <div class="chip">ASP.NET</div>
                 <h5>Operating Systems</h5>
                 <div class="chip">Ubuntu</div>
                 <div class="chip">Arch Linux</div>
                 <div class="chip">Windows 7</div>
                 <div class="chip">Windows 10</div>
+                <h5>Miscellaneous skills</h5>
+                <div class="chip">Agile</div>
+                <div class="chip">Git</div>
+                <div class="chip">&nbsp;MVC&nbsp;</div>
             </div>
         </div>
         <div class="divider"></div>
@@ -138,9 +150,30 @@
             <div class="col s4">
                 <div class="card small cyan darken-2">
                     <div class="card-content white-text">
-                        <span class="card-title">Project 1</span>
-                        <p>I am a very simple card. I am good at containing small bits of information. I am convenient because
-                            I require little markup to use effectively.</p>
+                        <span class="card-title">NASA USLI</span>
+                        <p>
+                            Designed and programmed the software of the OSU USLI competition rover while conducting educational outreach sessions with
+                            local schools and maintained the team website.
+                        </p>
+                    </div>
+                    <div class="card-action">
+                        <a href="#">
+                            <i class="fa fa-external-link"></i>&nbsp;Website
+                        </a>
+                        <a href="#">
+                            <i class="fa fa-github"></i>&nbsp;Github
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col s4">
+                <div class="card small cyan darken-2">
+                    <div class="card-content white-text">
+                        <span class="card-title">Smarter Balanced</span>
+                        <p>
+                            Refactored and added features for the Smarter Balanced websites used by 4700 educators and 700,000+ students across the United
+                            States to compare individual students’ academic performance on a national level
+                        </p>
                     </div>
                     <div class="card-action">
                         <a href="#">
@@ -155,9 +188,11 @@
             <div class="col s4">
                 <div class="card small cyan darken-2">
                     <div class="card-content white-text">
-                        <span class="card-title">Project 2</span>
-                        <p>I am a very simple card. I am good at containing small bits of information. I am convenient because
-                            I require little markup to use effectively.</p>
+                        <span class="card-title">ODOT</span>
+                        <p>
+                            Maintained, refactored, and updated the Transportation Operations Center System code base. This system coordinates emergency
+                            response teams to decrease response times for accidents and other disasters.
+                        </p>
                     </div>
                     <div class="card-action">
                         <a href="#">
@@ -169,12 +204,16 @@
                     </div>
                 </div>
             </div>
+        </div>
+        <div class="row">
             <div class="col s4">
                 <div class="card small cyan darken-2">
                     <div class="card-content white-text">
-                        <span class="card-title">Project 3</span>
-                        <p>I am a very simple card. I am good at containing small bits of information. I am convenient because
-                            I require little markup to use effectively.</p>
+                        <span class="card-title">SB-Components</span>
+                        <p>
+                            Created react modules for and maintained an NPM downloadable used for controlling and displaying information for the Smarter
+                            Balanced Websites.
+                        </p>
                     </div>
                     <div class="card-action">
                         <a href="#">
@@ -192,9 +231,25 @@
     </main>
 
     <footer class="page-footer grey darken-2">
+        <div class="container">
+            <div class="row">
+                <a href="mailto:turkingtonkevin@gmail.com" class="white-text">
+                    <i class="fa fa-envelope fa-2x"></i>&nbsp;TurkingtonKevin@gmail.com
+                </a>
+                <a href="downloadables/KevinTurkington_Resume.pdf" class="white-text">
+                    <i class="fa fa-file fa-2x"></i>&nbsp;Resume
+                </a>
+                <a href="https://www.linkedin.com/in/kevin-turkington/" class="white-text">
+                    <i class="fa fa-linkedin-square fa-2x"></i>&nbsp;Linkedin
+                </a>
+                <a href="https://github.com/zainkai" class="white-text">
+                    <i class="fa fa-github fa-2x"></i>&nbsp;Github
+                </a>
+            </div>
+        </div>
         <div class="footer-copyright">
             <div class="container">
-                © 2018 Copyright Kevin Turkington
+                © 2018 Kevin Turkington
             </div>
         </div>
     </footer>

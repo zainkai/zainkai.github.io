@@ -16,9 +16,45 @@ div.skills-body {
 div.about-body {
   padding-top: 1vh;
 }
-
-div.experience-header {
+div.about-footer {
+  margin:1vh;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.about-footer .fa {
+  align-items: baseline;
+  vertical-align: middle;
+}
+
+div.education-item > span {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+div.education-item > h5 {
+  margin-top: 0;
+}
+
+div.experience-item > span {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+div.experience-item > h5,
+div.experience-item > p {
+ margin-top: 0;
+}
+
+.page-footer > .container > .row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
