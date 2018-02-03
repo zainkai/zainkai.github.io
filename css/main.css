@@ -17,7 +17,7 @@ div.about-body {
   padding-top: 1vh;
 }
 div.about-footer {
-  margin:1vh;
+  margin:1vh 5vh 0 5vh;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -29,7 +29,8 @@ div.about-footer {
   vertical-align: middle;
 }
 
-div.education-item > span {
+div.education-item > span,
+div.experience-item > span {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -38,13 +39,6 @@ div.education-item > span {
 
 div.education-item > h5 {
   margin-top: 0;
-}
-
-div.experience-item > span {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: baseline;
 }
 
 div.experience-item > h5,
