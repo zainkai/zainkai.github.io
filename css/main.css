@@ -24,25 +24,21 @@ div.about-footer {
   flex-wrap: wrap;
 }
 
-.about-footer .fa {
-  align-items: baseline;
-  vertical-align: middle;
-}
-
-div.education-item > span,
-div.experience-item > span {
+div.education-body > span,
+div.experience-body > span {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: baseline;
 }
 
-div.education-item > h5 {
-  margin-top: 0;
+div.education-divider {
+  margin-bottom: 2vh;
 }
 
-div.experience-item > h5,
-div.experience-item > p {
+div.experience-body > h5,
+div.experience-body > p,
+div.education-body > h5 {
  margin-top: 0;
 }
 
@@ -51,4 +47,8 @@ div.experience-item > p {
   flex-direction: row;
   justify-content: space-between;
   flex-wrap: wrap;
+}
+
+.ubuntu-font {
+  font-family: Ubuntu;
 }
