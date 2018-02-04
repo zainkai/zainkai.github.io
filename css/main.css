@@ -50,5 +50,5 @@ div.education-body > h5 {
 }
 
 .ubuntu-font {
-  font-family: Ubuntu "Roboto";
+  font-family: "Ubuntu" "Roboto" monospace !important;
 }
