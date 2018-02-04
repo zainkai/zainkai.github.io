@@ -3,7 +3,7 @@
 
 <head>
     <!-- Favicon -->
-    <link rel="shortcut icon" type="image/png" href="favicon.ico"/>
+    <link rel="shortcut icon" type="image/png" href="favicon.ico" />
     <!--Import Google Icon Font-->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <!--Import materialize.css-->
@@ -20,25 +20,25 @@
     <header class="navbar-fixed">
         <nav class="cyan darken-3 white-text">
             <div class="nav-wrapper">
-            <a href="#" class="brand-logo ubuntu-font">&nbsp;#!/bin/Kevin</a>
-            <ul id="nav-mobile" class="right hide-on-med-and-down">
-                <li>
-                    <a href="#about">About</a>
-                </li>
-                <li>
-                    <a href="#experience">Experience</a>
-                </li>
-                <li>
-                    <a href="#education">Education</a>
-                </li>
-                <li>
-                    <a href="#skills">Skills</a>
-                </li>
-                <li>
-                    <a href="#projects">Projects</a>
-                </li>
-            </ul>
-        </div>
+                <a href="#" class="brand-logo ubuntu-font">&nbsp;#!/bin/Kevin</a>
+                <ul id="nav-mobile" class="right hide-on-med-and-down">
+                    <li>
+                        <a href="#about">About</a>
+                    </li>
+                    <li>
+                        <a href="#experience">Experience</a>
+                    </li>
+                    <li>
+                        <a href="#education">Education</a>
+                    </li>
+                    <li>
+                        <a href="#skills">Skills</a>
+                    </li>
+                    <li>
+                        <a href="#projects">Projects</a>
+                    </li>
+                </ul>
+            </div>
         </nav>
     </header>
 
@@ -52,9 +52,10 @@
                 </div>
                 <div class="col s9">
                     <p class="flow-text">
-                        My name is Kevin. I enjoy everything and anything programming, from low level kernel development to Node and React web development.
-                        I live in Portland Oregon and im actively looking for software development jobs in the Portland/Seattle
-                        area. During my free time I enjoy outdoor photography and powerlifting.
+                        My name is Kevin. I enjoy programming from low level kernel development to Node and React web development. I live in Portland
+                        Oregon, and work as a junior software developer for the Center for Applied Systems and Software.
+                        im actively looking for software development jobs in the Portland/Seattle area. During my free time
+                        I enjoy outdoor photography and powerlifting.
                     </p>
                 </div>
 
@@ -80,16 +81,22 @@
         <div id="experience" class="row section card-panel cyan darken-2 white-text">
             <h3>Experience</h3>
             <div class="divider"></div>
-            <div class="experience-body">
-                <span>
-                    <h4>Center for Applied Systems and Software</h4>
-                    <h5>March 2016 - Present</h5>
-                </span>
-                <h5>Junior Software Developer</h5>
-                <p class="flow-text">
-                    Worked in large development teams as a junior developer on projects for the Oregon Department of Transportation and Smarter
-                    Balanced.
-                </p>
+
+            <div class="row valign-wrapper">
+                <div class="col s2">
+                    <img class="circle responsive-img z-depth-3" src="images/cass_icon.png">
+                </div>
+                <div class="experience-body col s10">
+                    <span>
+                        <h4>Center for Applied Systems and Software</h4>
+                        <h5>March 2016 - Present</h5>
+                    </span>
+                    <h5>Junior Software Developer</h5>
+                    <p class="flow-text">
+                        Worked in large development teams as a junior developer on projects for the Oregon Department of Transportation and Smarter
+                        Balanced.
+                    </p>
+                </div>
             </div>
         </div>
 
@@ -127,38 +134,7 @@
         </div>
         <div class="divider"></div>
 
-        <div id="skills" class="row section card-panel cyan darken-2 white-text">
-            <h3>Skills</h3>
-            <div class="divider"></div>
-            <div class="skills-body">
-                <h5>Programming Languages</h5>
-                <div class="chip">TypeScript</div>
-                <div class="chip">Python</div>
-                <div class="chip">&nbsp;C&nbsp;</div>
-                <div class="chip">&nbsp;C#&nbsp;</div>
-                <div class="chip">LaTex</div>
-                <div class="chip">HTML</div>
-                <div class="chip">CSS</div>
-                <h5>Frameworks</h5>
-                <div class="chip">React.js</div>
-                <div class="chip">Node.js</div>
-                <div class="chip">ASP.NET</div>
-                <h5>Operating Systems</h5>
-                <div class="chip">Ubuntu</div>
-                <div class="chip">Arch Linux</div>
-                <div class="chip">Windows 7</div>
-                <div class="chip">Windows 10</div>
-                <h5>Miscellaneous skills</h5>
-                <div class="chip">Agile</div>
-                <div class="chip">Git</div>
-                <div class="chip">&nbsp;MVC&nbsp;</div>
-                <div class="chip">Visual Studio</div>
-                <div class="chip">VS-Code</div>
-            </div>
-        </div>
-        <div class="divider"></div>
-
-        <div id="projects" class="row section card-panel">
+        <div id="projects" class="row section card-panel cyan darken-2 white-text">
             <h3>Projects</h3>
         </div>
         <!-- Project container -->
@@ -262,8 +238,113 @@
                     </div>
                 </div>
             </div>
-        </div>
+            <div class="col s4">
+                <div class="card small cyan darken-2">
+                    <div class="card-content white-text">
+                        <span class="card-title">University App</span>
+                        <p>
+                            Simple Node.js, React.js, and SQL web application for introduction to databases (CS340) final project.
+                        </p>
+                    </div>
+                    <div class="card-action">
+                        <a href="https://github.com/zainkai/university_app">
+                            <i class="fa fa-github"></i>&nbsp; Github
+                        </a>
+                    </div>
+                </div>
+            </div>
 
+            <div class="col s4">
+                <div class="card small cyan darken-2">
+                    <div class="card-content white-text">
+                        <span class="card-title">Additional Projects</span>
+                        <ul>
+                            <li>
+                                Pololu mc33926 motor controller driver
+                                <br/>
+                                <a href="https://github.com/zainkai/dual-mc33926-motor-driver-rpi" class="yellow-text text-darken-3">
+                                    <i class="fa fa-github"></i>
+                                    Github
+                                </a>
+                            </li>
+                            <li>
+                                Easy Raspberry Pi SSH utility
+                                <br/>
+                                <a href="https://github.com/zainkai/helpful-scripts/tree/master/raspberry_pi" class="yellow-text text-darken-3">
+                                    <i class="fa fa-github"></i>
+                                    Github
+                                </a>
+                            </li>
+                            <li>
+                                Beaglebone black internet tether utility
+                                <br/>
+                                <a href="https://github.com/zainkai/helpful-scripts/tree/master/beaglebone" class="yellow-text text-darken-3">
+                                    <i class="fa fa-github"></i>
+                                    Github
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="divider"></div>
+
+        <div id="skills" class="row section card-panel">
+            <h3>Skills</h3>
+            <div class="divider"></div>
+            <div class="skills-body">
+                <h5>Programming Languages</h5>
+                <div class="chip">
+                    <a href="https://www.typescriptlang.org/" class="grey-text text-darken-2">TypeScript</a>
+                </div>
+                <div class="chip">
+                    <a href="https://www.python.org/" class="grey-text text-darken-2">Python</a>
+                </div>
+                <div class="chip">&nbsp;C&nbsp;</div>
+                <div class="chip">&nbsp;C#&nbsp;</div>
+                <div class="chip">
+                    <a href="https://www.latex-project.org/" class="grey-text text-darken-2">LaTex</a>
+                </div>
+                <div class="chip">HTML</div>
+                <div class="chip">CSS</div>
+                <h5>Frameworks</h5>
+                <div class="chip">
+                    <a href="https://reactjs.org/" class="grey-text text-darken-2">React.js</a>
+                </div>
+                <div class="chip">
+                    <a href="https://nodejs.org/en/" class="grey-text text-darken-2">Node.js</a>
+                </div>
+                <div class="chip">
+                    <a href="https://www.asp.net/" class="grey-text text-darken-2">ASP.NET</a>
+                </div>
+                <h5>Operating Systems</h5>
+                <div class="chip">
+                    <a href="https://www.ubuntu.com/" class="grey-text text-darken-2">Ubuntu</a>
+                </div>
+                <div class="chip">
+                    <a href="https://www.archlinux.org/" class="grey-text text-darken-2">Arch Linux</a>
+                </div>
+                <div class="chip">Windows 7</div>
+                <div class="chip">Windows 10</div>
+                <h5>Miscellaneous skills</h5>
+                <div class="chip">
+                    <a href="https://www.visualstudio.com/learn/what-is-agile-development/" class="grey-text text-darken-2">Agile</a>
+                </div>
+                <div class="chip">
+                    <a href="https://git-scm.com/" class="grey-text text-darken-2">Git</a>
+                </div>
+                <div class="chip">
+                    <a href="https://docs.microsoft.com/en-us/aspnet/core/mvc/overview" class="grey-text text-darken-2">&nbsp;MVC&nbsp;</a>
+                </div>
+                <div class="chip">
+                    <a href="https://www.visualstudio.com/" class="grey-text text-darken-2">Visual Studio</a>
+                </div>
+                <div class="chip">
+                    <a href="https://code.visualstudio.com/" class="grey-text text-darken-2">VS-Code</a>
+                </div>
+            </div>
+        </div>
         <div class="divider"></div>
     </main>
 
