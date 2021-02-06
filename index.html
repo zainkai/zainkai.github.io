@@ -1,401 +1,165 @@
 <!DOCTYPE html>
 <html>
+<title>Kevin Turkington</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
+</style>
+<body class="w3-light-grey">
 
-<head>
-    <!-- Favicon -->
-    <link rel="shortcut icon" type="image/png" href="favicon.ico" />
-    <!--Import Google Icon Font-->
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <!--Import materialize.css-->
-    <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
-    <!-- Import Font Awesome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <!-- Custom CSS imports -->
-    <link type="text/css" rel="stylesheet" href="css/main.css" />
-    <!--Let browser know website is optimized for mobile-->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-132829651-1"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag() { dataLayer.push(arguments); }
-        gtag('js', new Date());
-        gtag('config', 'UA-132829651-1');
-    </script>
-</head>
+<!-- Page Container -->
+<div class="w3-content w3-margin-top" style="max-width:1400px;">
 
-<body>
-    <header class="navbar-fixed">
-        <nav class="cyan darken-3 white-text">
-            <div class="nav-wrapper">
-                <a href="#" class="brand-logo">&nbsp;#!/bin/Kevin</a>
-                <ul id="nav-mobile" class="right hide-on-med-and-down">
-                    <li>
-                        <a href="#about">About</a>
-                    </li>
-                    <li>
-                        <a href="#experience">Experience</a>
-                    </li>
-                    <li>
-                        <a href="#education">Education</a>
-                    </li>
-                    <li>
-                        <a href="#skills">Skills</a>
-                    </li>
-                    <li>
-                        <a href="#projects">Projects</a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
-    </header>
-
-    <main class="container">
-        <div id="about" class="row section card-panel">
-            <h3>About Me</h3>
-            <div class="divider"></div>
-            <div class="row valign-wrapper about-body">
-                <div class="col s6 m3">
-                    <img class="circle responsive-img z-depth-3" src="images/profile.jpg">
-                </div>
-                <div class="col s6 m9">
-                    <p class="flow-text">
-                        I enjoy programming from low level kernel development to Node and React web development.
-                        I live in Seattle Washington, and work as a software engineer for Nordstrom.
-                        During my free time I enjoy outdoor photography and powerlifting.
-                    </p>
-                </div>
-
-            </div>
-            <div class="divider"></div>
-            <div class="about-footer">
-                <a href="mailto:turkingtonkevin@gmail.com" onclick="gClickNav('Email');">
-                    <i class="fa fa-envelope fa-2x"></i>&nbsp;TurkingtonKevin@gmail.com
-                </a>
-                <a href="downloadables/KevinTurkington_Resume.pdf" onclick="gClickNav('Resume');">
-                    <i class="fa fa-download fa-2x"></i>&nbsp; Resume
-                </a>
-                <a href="https://www.linkedin.com/in/kevin-turkington/" onclick="gClickNav('Linkedin');">
-                    <i class="fa fa-linkedin-square fa-2x"></i>&nbsp;Linkedin
-                </a>
-                <a href="https://github.com/zainkai" onclick="gClickNav('Github');">
-                    <i class="fa fa-github fa-2x"></i>&nbsp;Github
-                </a>
-            </div>
+  <!-- The Grid -->
+  <div class="w3-row-padding">
+  
+    <!-- Left Column -->
+    <div class="w3-third">
+    
+      <div class="w3-white w3-text-grey w3-card-4">
+        <div class="w3-display-container">
+          <img src="images/profile.jpg" style="width:100%" alt="Avatar">
+          <div class="w3-display-bottomleft w3-container w3-text-white">
+            <h2>Kevin Turkington</h2>
+          </div>
         </div>
-        <div class="divider"></div>
+        <div class="w3-container">
+          <p><i class="fa fa-briefcase fa-fw w3-margin-right w3-large w3-text"></i>Full Stack Software Engineer</p>
+          <p><i class="fa fa-home fa-fw w3-margin-right w3-large w3-text"></i>Seattle, WA</p>
+          <p><i class="fa fa-envelope fa-fw w3-margin-right w3-large w3-text"></i><a href="mailto: turkingtonkevin@gmail.com">TurkingtonKevin@gmail.com</a></p>
+          <p><i class="fa fa-linkedin fa-fw w3-margin-right w3-large w3-text"></i><a href="https://www.linkedin.com/in/kevin-turkington/">in/kevin-turkington</a></p>
+          <p><i class="fa fa-file fa-fw w3-margin-right w3-large w3-text"></i><a href="https://github.com/zainkai/Resume/blob/master/KevinTurkington.pdf">Resume</a></p>
+          <hr>
 
-        <div id="experience" class="row section card-panel cyan darken-2 white-text">
-            <h3>Experience</h3>
-            <div class="divider"></div>
-
-            <div class="row valign-wrapper">
-                <div class="col s4 m2">
-                    <img class="circle responsive-img z-depth-3" src="images/nordstrom_icon.jpg">
-                </div>
-                <div class="experience-body col s8 m10">
-                    <span>
-                        <h4>Nordstrom</h4>
-                        <h5>August 2019 - Present</h5>
-                    </span>
-                    <h5>Software Engineer II</h5>
-                    <p class="flow-text">
-                        Designed and developed, services/applications used in Nordstroms internal fulfillment pipelines
-                    </p>
-                </div>
-            </div>
-            <div class="row valign-wrapper">
-                <div class="col s4 m2">
-                    <img class="circle responsive-img z-depth-3" src="images/nordstrom_icon.jpg">
-                </div>
-                <div class="experience-body col s8 m10">
-                    <span>
-                        <h4>Nordstrom</h4>
-                        <h5>June 2018 - August 2019</h5>
-                    </span>
-                    <h5>Software Engineer I</h5>
-                    <p class="flow-text">
-                        Actively developed enterprise level applications for Nordstrom internal employee use.
-                    </p>
-                </div>
-            </div>
-            <div class="row valign-wrapper">
-                <div class="col s4 m2">
-                    <img class="circle responsive-img z-depth-3" src="images/cass_icon.png">
-                </div>
-                <div class="experience-body col s8 m10">
-                    <span>
-                        <h4>Center for Applied Systems and Software</h4>
-                        <h5>March 2016 - June 2018</h5>
-                    </span>
-                    <h5>Junior Software Developer</h5>
-                    <p class="flow-text">
-                        Worked in large development teams as a junior developer on projects for the Oregon Department of
-                        Transportation and Smarter
-                        Balanced.
-                    </p>
-                </div>
-            </div>
+          <p class="w3-large"><b><i class="fa fa-asterisk fa-fw w3-margin-right w3-text"></i>Frameworks / Tools</b></p>
+          <p>Airflow, PySpark, React, React-Native, NodeJs, Docker, Kubernetes, Postgres, DynamoDb</p>
+        
+          <p class="w3-large w3-text-theme"><b><i class="fa fa-globe fa-fw w3-margin-right w3-text"></i>Programming Languages</b></p>
+          <p>Golang, TypeScript/JavaScript, Python, SQL</p>
+          
+          <br>
         </div>
+      </div><br>
 
-        <div class="divider"></div>
+    <!-- End Left Column -->
+    </div>
 
-        <div id="education" class="row section card-panel">
-            <h3>Education</h3>
-            <div class="divider education-divider"></div>
-            <div class="row valign-wrapper">
-                <div class="col s4 m2">
-                    <img class="circle responsive-img z-depth-3" src="images/osu_icon.png">
-                </div>
-                <div class="education-body col s8 m10">
-                    <span>
-                        <h4>Oregon State University</h4>
-                        <h5>Fall 2014 - Spring 2018</h5>
-                    </span>
-                    <h5>Bachelors, Computer Science</h5>
-                </div>
-            </div>
-
-
-            <div class="row valign-wrapper">
-                <div class="col s4 m2">
-                    <img class="circle responsive-img z-depth-3" src="images/mhcc_icon.jpg">
-                </div>
-                <div class="education-body col s8 m10">
-                    <span>
-                        <h4>Mt. Hood Community College</h4>
-                        <h5>Fall 2010 - Summer 2015</h5>
-                    </span>
-                    <h5>Dual Enrollment</h5>
-                </div>
-            </div>
+    <!-- Right Column -->
+    <div class="w3-twothird">
+    
+      <div class="w3-container w3-card w3-white w3-margin-bottom">
+        <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-suitcase fa-fw w3-margin-right w3-xxlarge w3-text"></i>Work Experience</h2>
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b>Compass</b></h5>
+          <h4>Software Engineer II</h4>
+          <h6 class="w3-text"><i class="fa fa-calendar fa-fw w3-margin-right"></i>July 2020 - <span class="w3-tag w3-round">Current</span></h6>
+          <p>Insights & Analytics team</p>
+          <ul>
+            <li>Created v1 ETL pipelines for existing and upcoming Compass products</li>
+            <li>Cross collaborated with teams across Frontend, Backend, and infrastructure within the Compass ecosystem.</li>
+            <li>On-boarded and led engineering on airflow data pipelines.</li>
+          </ul>
+          <hr>
         </div>
-        <div class="divider"></div>
-
-        <div id="projects" class="row section card-panel cyan darken-2 white-text">
-            <h3>Projects</h3>
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b>Nordstrom</b></h5>
+          <h4>Software Engineer II</h4>
+          <h6 class="w3-text"><i class="fa fa-calendar fa-fw w3-margin-right"></i>August 2019 - July 2020</h6>
+          <h4>Software Engineer I</h4>
+          <h6 class="w3-text"><i class="fa fa-calendar fa-fw w3-margin-right"></i>June 2018 - August 2019</h6>
+          <ul>
+            <li>Aided in the design and development of full stack applications that improved the customer experience.</li>
+            <li>Improved the developer experience by creating new workflow tools and knowledge bases.</li>
+            <li>Mentored new engineers by pair programming and familiarizing them with Nordstrom's engineering standards.</li>
+          </ul>
+          <hr>
         </div>
-        <!-- Project container -->
-        <div class="row">
-            <div class="col s12 m4">
-                <div class="card small cyan darken-2">
-                    <div class="card-content white-text">
-                        <span class="card-title">Nordstrom - OneFill</span>
-                        <p>
-                            Refactored, added features, and aided in the design of a enterprise React-Native, NodeJS
-                            Express, and Java Kafka projects. With the goal of reducing customer order rejects, increase
-                            store productivity, and decrease overall supply chain costs.
-                        </p>
-                    </div>
-                    <div class="card-action">
-                    </div>
-                </div>
-            </div>
-            <div class="col s12 m4">
-                <div class="card small cyan darken-2">
-                    <div class="card-image">
-                        <img class="activator" src="images/usli_cover.jpg">
-                    </div>
-                    <div class="card-content white-text">
-                        <span class="card-title activator text-darken-4">
-                            OSU USLI
-                            <i class="material-icons right">more_vert</i>
-                        </span>
-                    </div>
-                    <div class="card-action">
-                        <a href="http://osuusli.com/">
-                            <i class="fa fa-external-link"></i>&nbsp;Website
-                        </a>
-                        <a href="https://github.com/OSU-USLI-18">
-                            <i class="fa fa-github"></i>&nbsp;Github
-                        </a>
-                    </div>
-                    <div class="card-reveal">
-                        <span class="card-title grey-text text-darken-4">OSU USLI
-                            <i class="material-icons right">close</i>
-                        </span>
-                        <p>
-                            Designed and programmed the software of the OSU USLI competition rover while conducting
-                            educational outreach sessions with
-                            local schools and maintained the team website.
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="col s12 m4">
-                <div class="card small cyan darken-2">
-                    <div class="card-image">
-                        <img class="activator" src="images/sb_cover.jpg">
-                    </div>
-                    <div class="card-content white-text">
-                        <span class="card-title activator text-darken-4">
-                            Smarter Balanced
-                            <i class="material-icons right">more_vert</i>
-                        </span>
-
-                    </div>
-                    <div class="card-action">
-                        <a href="http://www.smarterbalanced.org/">
-                            <i class="fa fa-external-link"></i>&nbsp; Website
-                        </a>
-                        <a href="https://github.com/osu-cass/AP_ScoringGuide">
-                            <i class="fa fa-github"></i>&nbsp; Github
-                        </a>
-                    </div>
-                    <div class="card-reveal">
-                        <span class="card-title grey-text text-darken-4">
-                            Smarter Balanced
-                            <i class="material-icons right">close</i>
-                        </span>
-                        <p>
-                            Refactored and added features for the Smarter Balanced websites used by 4700 educators and
-                            700,000+ students across the United
-                            States to compare individual students’ academic performance on a national level
-                        </p>
-                    </div>
-                </div>
-            </div>
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b>Center for Applied Systems and Softwar</b></h5>
+          <h4>Junior Software Engineer</h4>
+          <h6 class="w3-text"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Jun 2010 - Mar 2012</h6>
+          <p>Provided design and test plans on projects for the Oregon Department of Transportation and Smarter Balanced.</p><br>
         </div>
-        <div class="row">
-            <div class="col s12 m4">
-                <div class="card small cyan darken-2">
-                    <div class="card-content white-text">
-                        <span class="card-title">Oregon Department of Transportation</span>
-                        <p>
-                            Maintained, refactored, and updated the Transportation Operations Center System code base.
-                            This system coordinates emergency
-                            response teams to decrease response times for accidents and other disasters.
-                        </p>
-                    </div>
-                    <div class="card-action">
-                        <a href="http://www.oregon.gov/odot/pages/index.aspx">
-                            <i class="fa fa-external-link"></i>&nbsp; Website
-                        </a>
-                    </div>
-                </div>
-            </div>
-            <div class="col s12 m4">
-                <div class="card small cyan darken-2">
-                    <div class="card-content white-text">
-                        <span class="card-title">SB-Components</span>
-                        <p>
-                            Created react modules for and maintained an NPM downloadable used for controlling and
-                            displaying information for the Smarter
-                            Balanced Websites.
-                        </p>
-                    </div>
-                    <div class="card-action">
-                        <a href="https://www.npmjs.com/package/@osu-cass/sb-components">
-                            <i class="fa fa-external-link"></i>&nbsp; NPM
-                        </a>
-                        <a href="https://github.com/osu-cass/sb-components">
-                            <i class="fa fa-github"></i>&nbsp; Github
-                        </a>
-                    </div>
-                </div>
-            </div>
-            <div class="col s12 m4">
-                <div class="card small cyan darken-2">
-                    <div class="card-content white-text">
-                        <span class="card-title">University App</span>
-                        <p>
-                            Simple Node.js, React.js, and SQL web application for introduction to databases (CS340)
-                            final project.
-                        </p>
-                    </div>
-                    <div class="card-action">
-                        <a href="https://github.com/zainkai/university_app">
-                            <i class="fa fa-github"></i>&nbsp; Github
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="divider"></div>
+      </div>
 
-        <div id="skills" class="row section card-panel">
-            <h3>Skills</h3>
-            <div class="divider"></div>
-            <div class="skills-body">
-                <h5>Programming Languages</h5>
-                <div class="chip">
-                    <a href="https://www.typescriptlang.org/" class="grey-text text-darken-2">TypeScript</a>
-                </div>
-                <div class="chip">
-                    <a href="https://www.python.org/" class="grey-text text-darken-2">Python</a>
-                </div>
-                <div class="chip">&nbsp;Golang&nbsp;</div>
-                <div class="chip">
-                    <a href="https://www.latex-project.org/" class="grey-text text-darken-2">LaTex</a>
-                </div>
-                <div class="chip">HTML</div>
-                <div class="chip">CSS</div>
-                <h5>Frameworks</h5>
-                <div class="chip">
-                    <a href="https://reactjs.org/" class="grey-text text-darken-2">React.js</a>
-                </div>
-                <div class="chip">
-                    <a href="https://nodejs.org/en/" class="grey-text text-darken-2">Node.js</a>
-                </div>
-                <h5>Operating Systems</h5>
-                <div class="chip">
-                    <a href="https://www.ubuntu.com/" class="grey-text text-darken-2">Ubuntu</a>
-                </div>
-                <div class="chip">Windows 7</div>
-                <div class="chip">Windows 10</div>
-                <h5>Miscellaneous skills</h5>
-                <div class="chip">
-                    <a href="https://www.visualstudio.com/learn/what-is-agile-development/"
-                        class="grey-text text-darken-2">Agile</a>
-                </div>
-                <div class="chip">
-                    <a href="https://git-scm.com/" class="grey-text text-darken-2">Git</a>
-                </div>
-                <div class="chip">
-                    <a href="https://docs.microsoft.com/en-us/aspnet/core/mvc/overview"
-                        class="grey-text text-darken-2">&nbsp;MVC&nbsp;</a>
-                </div>
-                <div class="chip">
-                    <a href="https://www.visualstudio.com/" class="grey-text text-darken-2">Visual Studio</a>
-                </div>
-                <div class="chip">
-                    <a href="https://code.visualstudio.com/" class="grey-text text-darken-2">VS-Code</a>
-                </div>
-            </div>
+      <div class="w3-container w3-card w3-white w3-margin-bottom">
+        <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-certificate fa-fw w3-margin-right w3-xxlarge w3-text"></i>Education</h2>
+        <div class="w3-container">
+          <h4 class="w3-opacity"><b>Oregon State University</b></h4>
+          <h6 class="w3-text"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2014 - 2018</h6>
+          <h5>Bachelors, Computer Science</h5>
+          <p>OSU Linux Users Group, OSU App Club</p>
+          <hr>
         </div>
-        <div class="divider"></div>
-    </main>
+      </div>
 
-    <footer class="page-footer grey darken-2">
-        <div class="container">
-            <div class="row">
-                <a href="mailto:turkingtonkevin@gmail.com" class="white-text" onclick="gClickNav('Email');">
-                    <i class="fa fa-envelope fa-2x"></i>&nbsp;TurkingtonKevin@gmail.com
-                </a>
-                <a href="downloadables/KevinTurkington_Resume.pdf" class="white-text" onclick="gClickNav('Resume');">
-                    <i class="fa fa-download fa-2x"></i>&nbsp;Resume
-                </a>
-                <a href="https://www.linkedin.com/in/kevin-turkington/" class="white-text"
-                    onclick="gClickNav('Linkedin');">
-                    <i class="fa fa-linkedin-square fa-2x"></i>&nbsp;Linkedin
-                </a>
-                <a href="https://github.com/zainkai" class="white-text" onclick="gClickNav('Github');">
-                    <i class="fa fa-github fa-2x"></i>&nbsp;Github
-                </a>
-            </div>
+      <div class="w3-container w3-card w3-white w3-margin-bottom">
+        <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-wrench fa-fw w3-margin-right w3-xxlarge w3-text"></i>Projects</h2>
+
+        <div class="w3-container">
+          <h4 class="w3-opacity"><b>Nordstrom - Supply Chain Availability (Golang)</b></h4>
+          <h6 class="w3-text"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2020</h6>
+          <ul>
+            <li>Refactored, instrumented, and provided integrations for Nordstrom's Canada market. Focused on developing the fulfillment processes of Canadian e-commerce including full-line stores, drop shipping, and warehouses.</li>
+            <li>Reduced log capacity by 10% from ~100gb per day to ~90gb using random sampling.</li>
+          </ul>
+          <hr>
+
+          <h4 class="w3-opacity"><b>Nordstrom - OneFill (JavaScript/TypeScript)</b></h4>
+          <h6 class="w3-text"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2018 - 2019</h6>
+          <ul>
+            <li>Aided feature designs of an enterprise NodeJs / React-Native project with the goal of optimizing employee fulfillment process of e-commerce orders.</li>
+            <li>Simplified offline data synchronization workflows for fulfillment of e-commerce orders using Redux and Redux-offline.</li>
+            <li>Increased load capacity by 50% of our mobile application by integrating virtualized lists.</li>
+            <li>Re-configured backend services from JavaScript to TypeScript using Babel and Webpack</li>
+          </ul>
+          <hr>
+
+          <h4 class="w3-opacity"><b>Smarter Balanced - Sample Items Website (TypeScript)</b></h4>
+          <h6 class="w3-text"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2017 - 2018</h6>
+          <ul>
+            <li>Refactored and added features to the Smarter Balanced websites used by 4700 educators and 6,000,000+ students across the United States to compare individual students’ academic performance on a national level.</li>
+            <li>Conformed the site to Web Content Accessibility Guidelines 2.0.</li>
+          </ul>
+          <hr>
+
+          <h4 class="w3-opacity"><b>NASA University Student Launch Initiative (Python)</b></h4>
+          <h6 class="w3-text"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2017 - 2018</h6>
+          <ul>
+            <li>Won 6th out of 45 teams overall nationwide, and placed third overall for rover design.</li>
+            <li>Led the design and programming of the rover software while also conducted educational outreach sessions with schools.</li>
+            <li>Designed CLI wrapper in Python for Pololu Dual MC33926 Motor Driver for Raspberry Pi</li>
+          </ul>
+          <hr>
+
+          <h4 class="w3-opacity"><b>World of Addons (JavaScript) </b></h4>
+          <h6 class="w3-text"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2017 - 2018</h6>
+          <ul>
+            <li>The only open source cross-platform addon manager for World of Warcraft™ built in Electron and React frameworks. Serves as a universal decentralized software distribution proof of concept.</li>
+            <li>Implemented Clean and Hexagonal architecture patterns.</li>
+          </ul>
+          <hr>
+
         </div>
-        <div class="footer-copyright">
-            <div class="container">
-                © 2018 Kevin Turkington
-            </div>
-        </div>
-    </footer>
+      </div>
 
+    <!-- End Right Column -->
+    </div>
+    
+  <!-- End Grid -->
+  </div>
+  
+  <!-- End Page Container -->
+</div>
 
-    <!--Import jQuery before materialize.js-->
-    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-    <script type="text/javascript" src="js/materialize.min.js"></script>
-    <script type="text/javascript" src="js/index.js"></script>
+<footer class="w3-container w3-center w3-margin-top">
+  <!-- <i class="fa fa-linkedin w3-hover-opacity"></i>
+  <i class="fa fa-envelope w3-hover-opacity"></i> -->
+</footer>
+
 </body>
-
 </html>
